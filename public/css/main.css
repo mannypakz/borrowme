@@ -1,0 +1,414 @@
+/* Global */
+.header-right button.btn-primary{
+    font-size: 14px!important;
+    padding: 10px 18px;
+    border-radius: 0!important;
+}
+.content-header{
+    padding: 1rem 0 .3rem;
+}
+/* End Global */
+
+/* Header */
+.mobile-header .logo img{
+    max-width: 100%;
+}
+.mobile-header .header-right button.btn-primary{
+    font-size: 12px!important;
+    padding: 0;
+    color: #000;
+    background: transparent!important;
+    border: 0;
+    margin-top: -8px;
+}
+.mobile-header select.form-control{
+    padding: 5px 26px 5px 10px!important;
+    height: auto;
+    width: 100%!important;
+    margin-left: 0!important;
+    font-size: 12px;
+}
+/* End Header */
+
+/* Home page */
+.section-title{
+    font-family: 'Segoe UI Bold'!important;
+}
+.home-search-wrapper{
+   background: url('/images/home-banner.jpg') no-repeat center center;
+   background-size: cover;
+}
+.home-search{
+    padding: 5rem 0;
+}
+.home-search h2{
+    font-size: 40px;
+    color: #fff;
+}
+.home-search h3{
+    font-size: 18px;
+    color: #fff;
+}
+.home-search-form{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.home-search-form input[type="text"]{
+    min-height: 55px !important;
+    background: #e9f7f6;
+    border: 0;
+}
+.home-search-form button[type="submit"]{
+    background: #2CB6A9;
+    color: #fff;
+    padding: 15px 50px;
+}
+.home-search-buttons{
+    border-top: 2px dashed #a4a39e;
+    margin-top: 5rem;
+    padding-top: 1rem;
+}
+.home-search-buttons label.lend{
+    font-size: 23px;
+    color: #fff;
+}
+.home-search-buttons button#lend{
+    font-size: 18px!important;
+    margin-top: 1rem;
+    padding: 15px 55px;
+}
+.home-search-buttons .how-it-works{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #2cb7aa;
+    font-size: 18px;
+    padding: 15px 55px;
+}
+.advance-search a{
+    padding: 12px 60px;
+}
+.featured-column{
+    background-color: #eef9f8;
+    margin-top: -55px;
+    border-radius: 0 0 60% 60%;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    overflow: hidden;
+}
+.featured-column-content{
+
+}
+.featured-column-content:hover .icon i{
+    background: #2cb6a9;
+    color: #fff;
+}
+.featured-column-content:hover p,
+.featured-column-content:hover h4{
+    color: #2cb6a9;
+}
+.featured-column-content .icon i{
+    color: #2cb6a9;
+    font-size: 36px;
+    border: 2px solid #2cb6a9;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.featured-video,
+.featured-products{
+    margin-top: 3rem;
+}
+.featured-products .product-card{
+    border: 1px solid #f5f5f5;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #d2d2d2;
+    padding: 1rem;
+}
+.featured-products button{
+    font-size: 18px!important;
+}
+.testimonials{
+
+}
+.testimonial-content{
+    border: 1px solid #f5f5f5;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #d2d2d2;
+    margin: 10px;
+    padding: 2rem;
+}
+.testimonial-content:hover{
+    background: #2cb6a9;
+}
+.testimonial-content p.testimonial-desc{
+    min-height: 168px;
+}
+.testimonial-content:hover p{
+    color: #fff;
+}
+.testimonial-author{
+    margin: 2rem 1rem .5rem;
+}
+.testimonial-author img{
+    border-radius: 60px;
+    margin-right: 0.7rem;
+}
+.testimonial-author .author-name{
+    font-family: 'Segoe UI Bold'!important;
+}
+.home-product-card{
+    border: 1px solid #f1f1f1;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px #e8e8e8;
+}
+.home-product-card img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.home-product-card img.vendor-image{
+    border-radius: 30px;
+}
+.home-product-card-content{
+    margin: 1rem;
+}
+.home-product-card-image{
+    position: relative;
+}
+.home-product-card-desc{
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.product-card-price{
+    background: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    padding: 0 1rem;
+    color: #2cb7aa;
+    border-radius: 4px;
+}
+.home-product-card .rating{
+    font-size: 13px;
+    color: #2cb6a9;
+}
+/* End Home page */
+
+/* Main Menu */
+.main-menu{
+    padding: 0!important;
+}
+.navbar-nav{
+    justify-content: center;
+    width: 100%;
+}
+.dropdown-toggle::after{
+    display: none!important;
+}
+.dropdown-menu .exit-icon{
+    position: absolute;
+    right: 13px;
+    z-index: 999;
+}
+/* End Main Menu */
+
+/* Reviews */
+.reviews-wrapper{
+    border-bottom: 1px solid #e3e3e3;
+    padding: 1rem;
+    margin: 1rem;
+}
+.reviews-wrapper img{
+    border-radius: 60px;
+}
+.reviews-wrapper i.fas{
+    color: #2cb7aa;
+}
+/* End Reviews */
+
+/* Collections/Search */
+ul.nav-pills label.form-check-label{
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.product-wrapper img{
+    object-fit: cover;
+}
+.product-item-card{
+    margin: .9rem;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 1rem;
+}
+.product-item-card .price{
+    font-size: 14px;
+}
+.product-item-card .rating{
+    font-size: 10px;
+    color: #2cb7aa;
+    text-align: right;
+    display: block;
+}
+.item-status{
+    margin: 1rem;
+}
+.product-tags ul{
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+.product-tags ul li{
+    display: inline-block;
+    border: 1px solid #2cb7aa;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 0 5px 10px;
+}
+.product-tags ul li a{
+    color: #000;
+}
+.product-tags ul li a:hover{
+    text-decoration: none;
+}
+.nav-pills button.advanced-search.collapsed::after{
+    content: '+';
+}
+.nav-pills button.advanced-search::after{
+    content: '-';
+}
+/* En Collections/Search */
+
+/* Orders */
+.order-breadcrumb{
+    padding: .6rem 0 .2rem;
+}
+.order-button{
+    margin: 0 1rem;
+}
+/* End Orders */
+
+/* Item history */
+.item-history-details p{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+/* End item history */
+
+/* Favorite */
+.page-profile_favorite .content-section a{
+    color: #000;
+}
+.page-profile_favorite .content-section a:hover{
+    text-decoration: none;
+}
+/* End Favorite */
+
+/* Custom Media Queries */
+@media only screen and (max-width: 767px){
+    .logo{
+        margin-left: 20px;
+    }
+    .location-dropdown select{
+        border: 1px solid #000!important;
+        color: #000!important;
+        background: url(../images/select-arrow.png) no-repeat center right 12px!important;
+        border-radius: 0;
+    }
+    .header-right a{
+        margin-right: 10px;
+    }
+    .header-right a img.user-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .header-right i.fas{
+        color: #000;
+        font-size: 13px;
+    }
+    .header-right a.btn-secondary{
+        border: 0!important;
+        display: block;
+        padding: 0;
+        color: #000;
+        text-align: right;
+        margin-bottom: 5px;
+        margin-top: 3px;
+        font-size: 13px;
+    }
+    .home-search h2{
+        font-size: 24px;
+    }
+    .home-search h3{
+        font-size: 16px;
+    }
+    .home-search-form{
+        background: transparent;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    .home-search-form button[type="submit"]{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .home-search-buttons .how-it-works{
+        display: none;
+    }
+    .mobile-apps{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .featured-column{
+        border-radius: 0 0 16% 16%;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .featured-column-content{
+        margin-bottom: 3rem;
+    }
+    .featured-column-content .icon{
+        float: left;
+        margin-right: 20px;
+    }
+    .featured-video iframe{
+        height: auto!important;
+    }
+    .home-product-card .rating{
+       font-size: 10px;
+    }
+    .home-product-card img.vendor-image{
+        width: 24px;
+        height: 24px;
+    }
+    span.vendor-name{
+        font-size: 12px;
+    }
+    .location-dropdown{
+        margin-right: 5px;
+    }
+    .navbar{
+        padding: 0 15px!important;
+    }
+    .navbar-toggler:focus{
+        outline: 0;
+    }
+    .modal .login-wrapper button, .modal .register-wrapper button{
+        padding-left: 60px!important;
+        font-size: 15px!important;
+    }
+    .modal .login-wrapper button img, .modal .register-wrapper button img, .modal .login-page button img{
+        left: 20px;
+    }
+    .modal .login-wrapper button i, .modal .login-page button i, .modal .register-wrapper button i{
+        left: 26px;
+    }
+    body.modal-open .modal-content{
+        margin-right: 16px;
+    }
+}
+@media only screen and (max-width:414px){
+    .modal-body{
+        padding: 1rem!important;
+    }
+}
